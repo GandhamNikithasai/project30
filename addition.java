@@ -1,15 +1,13 @@
-public class MyClass {
-  public static void main(String[] args) {
-    int x, y, sum;
-    Scanner myObj = new Scanner(System.in);  // Create a Scanner object
-    System.out.println("Type a number:");
-    x = myObj.nextInt(); // Read user input
+public class Addition {
+    public static void main(String[] args) {
+        // Assign values to the two numbers
+        int num1 = 5;
+        int num2 = 10;
 
-    System.out.println("Type another number:");
-    y = myObj.nextInt(); // Read user input
+        // Add the two numbers
+        int sum = num1 + num2;
 
-    sum = x + y;
-    System.out.println("Sum is: " + sum); // Output user input
-  }
-} 
-
+        // Output the result
+        System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
+    }
+}
